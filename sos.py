@@ -10,3 +10,6 @@ def shinecute(command):
 
 def shinevaluate(operation):
 	return eval(operation)
+
+def shinelute(operation):
+	return abs(operation)
