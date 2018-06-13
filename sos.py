@@ -27,3 +27,7 @@ def shinysin(number):
 #divide 2 numbers
 def shinedivide(firstnumber, secondnumber):
 	return firstnumber / secondnumber
+
+#multiply 2 numbers
+def shinetimes(firstnumber, secondnumber):
+	return firstnumber * secondnumber
