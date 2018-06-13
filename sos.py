@@ -31,3 +31,7 @@ def shinedivide(firstnumber, secondnumber):
 #multiply 2 numbers
 def shinetimes(firstnumber, secondnumber):
 	return firstnumber * secondnumber
+
+#add 2 numbers
+def shineadd(firstnumber, secondnumber):
+	return firstnumber + secondnumber
