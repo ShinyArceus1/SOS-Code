@@ -7,3 +7,6 @@ def shineprint(message):
 
 def shinecute(command):
 	exec(command)
+
+def shinevaluate(operation):
+	return eval(operation)
