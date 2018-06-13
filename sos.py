@@ -13,3 +13,7 @@ def shinevaluate(operation):
 
 def shinelute(operation):
 	return abs(operation)
+
+def shinysin(number):
+	import math
+	return math.sin(number)
