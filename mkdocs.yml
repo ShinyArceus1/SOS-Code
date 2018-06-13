@@ -1,0 +1,57 @@
+# Project Information
+site_name: SOS Code Documentation
+site_description: This is a revolutionary new Python module/code
+site_author: ShinyArceus
+
+# Repository
+repo_name: ShinyArceus1/SOS-Code
+repo_url: https://github.com/ShinyArceus1/SOS-Code
+edit_uri: ""
+
+# Copyright
+copyright: 'Copyright &copy; 2018 ShinyArceus'
+
+# Configuration
+theme:
+  name: material
+  palette:
+    primary: 'indigo'
+    accent: 'red'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  language: 'en'
+  favicon: 'assets/images/favicon.ico'
+
+# Page Tree
+pages:
+    - Home: index.md
+
+# Extensions
+markdown_extensions:
+  - smarty
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
