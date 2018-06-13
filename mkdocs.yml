@@ -12,16 +12,7 @@ edit_uri: ""
 copyright: 'Copyright &copy; 2018 ShinyArceus'
 
 # Configuration
-theme:
-  name: material
-  palette:
-    primary: 'indigo'
-    accent: 'red'
-  font:
-    text: 'Roboto'
-    code: 'Roboto Mono'
-  language: 'en'
-  favicon: 'assets/images/favicon.ico'
+theme_dir: 'mkdocs_docskimmer'
 
 # Page Tree
 pages:
