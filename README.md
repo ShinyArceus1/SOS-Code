@@ -4,4 +4,4 @@ This is my second project, if you want to wiew my first,
 
 please note:
 
-I am still new to coding so this is just to extend my knowledge.
+I am still new to coding so this is just to extend my knowledge...
