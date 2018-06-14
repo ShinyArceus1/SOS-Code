@@ -58,6 +58,7 @@ def shinydebug_statesetup():
 #execute shinydebug_statesetup()
 shinydebug_statesetup()
 
+#change debug state
 def debugstate(state):
 	if state == 'enable':
 		debugenabled = True
