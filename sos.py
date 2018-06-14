@@ -50,7 +50,7 @@ def shinepi():
 	return math.pi
 
 #get value of e
-def shinee():
+def shinye():
 	import math
 	return math.e
 
@@ -73,7 +73,7 @@ def shineminus(firstnumber, secondnumber):
 #setup debugenabled variable
 def shinydebug_statesetup():
 	global debugenabled
-	debugenabled = false
+	debugenabled = False
 
 #execute shinydebug_statesetup()
 shinydebug_statesetup()
