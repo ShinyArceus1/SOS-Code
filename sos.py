@@ -49,6 +49,11 @@ def shinepi():
 	import math
 	return math.pi
 
+#get value of e
+def shinee():
+	import math
+	return math.e
+
 #divide 2 numbers
 def shinedivide(firstnumber, secondnumber):
 	return firstnumber / secondnumber
