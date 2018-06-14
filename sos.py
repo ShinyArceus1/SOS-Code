@@ -44,6 +44,11 @@ def shinyasin(number):
 	import math
 	return math.asin(number)
 
+#get value of pi
+def shinepi():
+	import math
+	return math.pi
+
 #divide 2 numbers
 def shinedivide(firstnumber, secondnumber):
 	return firstnumber / secondnumber
