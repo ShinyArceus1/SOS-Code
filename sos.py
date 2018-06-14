@@ -77,7 +77,7 @@ def shinydebug_varglobal():
 	else:
 		raise RuntimeError('An Error Has Occured:Debug mode is not enabled(0006)')
 
-
+#supresswarnings
 def shinydebug_supresswarning():
 	if debugenabled is True:
 		import warnings
