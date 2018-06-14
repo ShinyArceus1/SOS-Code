@@ -24,6 +24,11 @@ def shinysin(number):
 	import math
 	return math.sin(number)
 
+#tan of a number
+def shinytan(number):
+	import math
+	return math.tan(number)
+
 #divide 2 numbers
 def shinedivide(firstnumber, secondnumber):
 	return firstnumber / secondnumber
