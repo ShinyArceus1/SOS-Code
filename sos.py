@@ -34,6 +34,11 @@ def shinyhypot(number):
 	import math
 	return math.hypot(number)
 
+#atan of a number
+def shinyatan(number):
+	import math
+	return math.atan(number)
+
 #divide 2 numbers
 def shinedivide(firstnumber, secondnumber):
 	return firstnumber / secondnumber
