@@ -39,6 +39,11 @@ def shinyatan(number):
 	import math
 	return math.atan(number)
 
+#asin of a number
+def shinyasin(number):
+	import math
+	return math.asin(number)
+
 #divide 2 numbers
 def shinedivide(firstnumber, secondnumber):
 	return firstnumber / secondnumber
