@@ -1,50 +1,53 @@
-#paragraph space 
+#paragraph space
 def shinyspace(paragraphspaces=1):
 	for i in range(paragraphspaces):
 		print("", end="/n")
 
-#print letters/numbers 
+#print letters/numbers
 def shineprint(message):
 	print(str(message))
 
-#execute 
+#execute
 def shinecute(command):
 	exec(command)
 
-#evaluate 
+#evaluate
 def shinevaluate(operation):
 	return eval(operation)
 
-#absolute 
+#absolute
 def shinelute(operation):
 	return abs(operation)
 
-#sin of a number 
+#sin of a number
 def shinysin(number):
 	import math
 	return math.sin(number)
 
-#divide 2 numbers 
+#divide 2 numbers
 def shinedivide(firstnumber, secondnumber):
 	return firstnumber / secondnumber
 
-#multiply 2 numbers 
+#multiply 2 numbers
 def shinetimes(firstnumber, secondnumber):
 	return firstnumber * secondnumber
 
-#add 2 numbers 
+#add 2 numbers
 def shineadd(firstnumber, secondnumber):
 	return firstnumber + secondnumber
 
-#minus 2 numbers 
+#minus 2 numbers
 def shineminus(firstnumber, secondnumber):
 	return firstnumber - secondnumber
+
 
 def shinydebug_statesetup():
 	global debugenabled
 	debugenabled = false
+
 shinydebug_statesetup()
-def debugstate(state)
+
+def debugstate(state):
 	if state == 'enable':
 		debugenabled = True
 		print('debug mode has been enabled')
@@ -53,12 +56,14 @@ def debugstate(state)
 		print('debug mode has been disabled')
 	else:
 		raise RuntimeError('An Error Has Occured: Invalid Debug State Entered (0005)')
+
 def shinydebug_Varglobal():
 	if debugenabled is True:
 		global sos_output
 		global sos_Stored
 	else:
 		raise RuntimeError('An Error Has Occured:Debug mode is not enabled(0006)')
+
 def shinydebug_Supresswarning():
 	if debugenabled is True:
 		import warnings
@@ -66,6 +71,6 @@ def shinydebug_Supresswarning():
 	else:
 		raise RuntimeError('An Errror Has Occured:Debug mode Not Enabled(0006)')
 
-def shinyexecution(exitcode=0)
+def shinyexecution(exitcode=0):
 	import sys
 	sys.exit(exitcode)
