@@ -69,14 +69,14 @@ def debugstate(state):
 	else:
 		raise RuntimeError('An Error Has Occured: Invalid Debug State Entered (0005)')
 
-def shinydebug_Varglobal():
+def shinydebug_varglobal():
 	if debugenabled is True:
 		global sos_output
 		global sos_Stored
 	else:
 		raise RuntimeError('An Error Has Occured:Debug mode is not enabled(0006)')
 
-def shinydebug_Supresswarning():
+def shinydebug_supresswarning():
 	if debugenabled is True:
 		import warnings
 		warnings.filterwarnings("ignore")
