@@ -40,7 +40,7 @@ def shineadd(firstnumber, secondnumber):
 def shineminus(firstnumber, secondnumber):
 	return firstnumber - secondnumber
 
-def shinydebug statesetup()
+def shinydebug_statesetup():
 	global debugenabled
 	debugenabled = false
 shinydebug_statesetup()
