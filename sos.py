@@ -39,3 +39,26 @@ def shineadd(firstnumber, secondnumber):
 #minus 2 numbers 
 def shineminus(firstnumber, secondnumber):
 	return firstnumber - secondnumber
+
+def shinydebug_statesetup()
+	global debugenabled
+	debugenabled = false
+shinydebug_statesetup()
+def debugstate(state)
+	if state == 'enable':
+		debugenabled = True
+		print('debug mode has been enabled')
+	elif state =='disable':
+		debugenabled = False
+		print('debug mode has been disabled')
+	else:
+		raise RuntimeError('An Error Has Occured: Invalid Debug State Entered (0005)')
+def shinydebug_Varglobal():
+	if debugenabled is True:
+		global sos_output
+		global sos_Stored
+	else:
+		raise RuntimeError('An Error Has Occured:Debug mode is not enabled(0006)')
+def shinydebug_Supresswarning():
+	if debugenabled is True:
+		important 
