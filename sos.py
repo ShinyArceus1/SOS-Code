@@ -85,7 +85,7 @@ def shinydebug_supresswarning():
 	else:
 		raise RuntimeError('An Errror Has Occured:Debug mode Not Enabled(0006)')
 
-
+#exit execution
 def shinyexecution(exitcode=0):
 	import sys
 	sys.exit(exitcode)
