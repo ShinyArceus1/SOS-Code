@@ -55,6 +55,7 @@ def shinydebug_statesetup():
 	global debugenabled
 	debugenabled = false
 
+#execute shinydebug_statesetup()
 shinydebug_statesetup()
 
 def debugstate(state):
