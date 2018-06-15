@@ -4,6 +4,8 @@ python:
 - 3.6.5
 branches:
 - master
+before_install:
+  - sudo apt-get update
 script:
 - python sos.py
 before_deploy:
