@@ -18,6 +18,14 @@ theme_dir: 'mkdocs_docskimmer'
 pages:
     - Home: index.md
 
+# Docskimmer
+extra_css:
+    - css\docskimmer.css
+    - css\reset.css
+
+extra_javascript:
+    - js\base.js
+
 # Extensions
 markdown_extensions:
   - smarty
