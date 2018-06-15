@@ -7,7 +7,7 @@ branches:
 script:
 - python sos.py
 before_deploy:
-- pip install mkdocs
+- pip install mkdocs pymdown-extensions
 - git clone https://github.com/hfagerlund/mkdocs-docskimmer.git
 - cp -r $PWD/mkdocs-docskimmer/mkdocs_docskimmer .
 - cp -r $PWD/mkdocs-docskimmer/mkdocs_docskimmer/. ./docs
