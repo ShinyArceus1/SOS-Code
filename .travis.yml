@@ -11,7 +11,7 @@ before_deploy:
 - git clone https://github.com/hfagerlund/mkdocs-docskimmer.git
 - cp -r $PWD/mkdocs-docskimmer/mkdocs_docskimmer .
 - cp -r $PWD/mkdocs-docskimmer/mkdocs_docskimmer/. ./docs
-- mkdocs build --verbose --clean --strict
+- mkdocs build --verbose --clean
 deploy:
   provider: pages
   skip_cleanup: true
