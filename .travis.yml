@@ -9,8 +9,8 @@ script:
 before_deploy:
 - pip install mkdocs
 - git clone https://github.com/hfagerlund/mkdocs-docskimmer.git
-- cp mkdocs_docskimmer /
-- cp mkdocs_docskimmer/mkdocs_docskimmer/. docs
+- cp /mkdocs_docskimmer /
+- cp /mkdocs_docskimmer/mkdocs_docskimmer/. docs
 - mkdocs build --verbose --clean --strict
 deploy:
   provider: pages
