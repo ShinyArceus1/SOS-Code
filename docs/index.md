@@ -1,10 +1,5 @@
 # Welcome To SOS Code
 
-## the codes in first release
-In the first pre-release, we have added:
+Please note:
 
-plus, minus, times, divide
-print words, paragraph space, execute, evaluate and sin
-
-## codes in the second release
-In this release we have added a few more codes
+I am still new to coding so this is just to extend my knowledge. I don't need help as there are no graphics, but if you have a suggestion and know the code, please feel free to commit. You will have to request the commit. I don't want this wrecked.
