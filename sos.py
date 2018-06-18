@@ -114,3 +114,7 @@ def shinyexecution(exitcode=0):
 def shineput(value):
 	sos_output = value
 	return value
+
+#store a value
+def shinestore(value):
+	sos_stored = value
