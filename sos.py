@@ -118,3 +118,7 @@ def shineput(value):
 #store a value
 def shinestore(value):
 	sos_stored = value
+
+#get the stored value
+def shineget(value):
+	return sos_stored
