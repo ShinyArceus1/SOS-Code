@@ -1,5 +1,5 @@
 # S.O.S-code
-This is my second project, if you want to wiew my first,
+This is my second project, if you want to view my first,
 [click here](https://github.com/Richienb/draco-fire)
 
 please note:
