@@ -93,7 +93,7 @@ def debugstate(state):
 def shinydebug_varglobal():
 	if debugenabled is True:
 		global sos_output
-		global sos_Stored
+		global sos_stored
 	else:
 		raise RuntimeError('An Error Has Occured:Debug mode is not enabled(0006)')
 
@@ -109,3 +109,8 @@ def shinydebug_supresswarning():
 def shinyexecution(exitcode=0):
 	import sys
 	sys.exit(exitcode)
+
+#set the given value to sos_output and return it
+def shineput(value):
+	sos_output = value
+	return value
