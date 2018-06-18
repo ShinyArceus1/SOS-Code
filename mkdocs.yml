@@ -17,8 +17,9 @@ theme_dir: 'mkdocs_docskimmer'
 # Page Tree
 pages:
     - Home: index.md
+    - Release Notes: releasenotes.md
 
-# Docskimmer
+# Docskimmer Configuration
 extra_css:
     - css\docskimmer.css
     - css\reset.css
