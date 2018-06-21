@@ -13,6 +13,7 @@ before_install:
 
 script:
   - python sos.py
+  - python test.py
 
 before_deploy:
   - pip install mkdocs pymdown-extensions
