@@ -1,4 +1,4 @@
-# S.O.S-code
+# SOS Code
 This is my second project, if you want to view my first,
 [click here](https://github.com/Richienb/draco-fire)
 
