@@ -13,7 +13,6 @@ script:
   - python test.py
 
 before_deploy:
-  - pip install mkdocs pymdown-extensions
   - git clone https://github.com/hfagerlund/mkdocs-docskimmer.git
   - cp -r $PWD/mkdocs-docskimmer/mkdocs_docskimmer .
   - cp -r $PWD/mkdocs-docskimmer/mkdocs_docskimmer/. ./docs
