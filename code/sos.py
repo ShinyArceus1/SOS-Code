@@ -1,3 +1,5 @@
+debugenabled = False
+
 #paragraph space
 def shinyspace(paragraphspaces=1):
 	for i in range(paragraphspaces):
