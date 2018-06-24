@@ -8,11 +8,15 @@ python:
 branches:
   - master
 
+before_script:
+  - cd code
+
 script:
   - python sos.py
   - python test.py
 
 before_deploy:
+  - cd ..
   - git clone https://github.com/hfagerlund/mkdocs-docskimmer.git
   - cp -r $PWD/mkdocs-docskimmer/mkdocs_docskimmer .
   - cp -r $PWD/mkdocs-docskimmer/mkdocs_docskimmer/. ./docs
