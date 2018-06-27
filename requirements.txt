@@ -1,7 +1,4 @@
 # Main modules
-# ROS Code modules
-clipboard
-colour
 # mkdocs modules
 mkdocs
 pymdown-extensions
