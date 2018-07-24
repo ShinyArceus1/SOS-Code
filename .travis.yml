@@ -3,10 +3,13 @@ sudo:              false
 language:          python
 
 python:
-  - 3.6.5
+  - 3.6.6
 
 branches:
   - master
+
+install:
+  - pip install -r requirements.txt
 
 before_script:
   - cd code
