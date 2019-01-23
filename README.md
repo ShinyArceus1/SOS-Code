@@ -1,6 +1,4 @@
 # SOS Code
-This is my second project, if you want to view my first,
-[click here](https://github.com/Richienb/draco-fire)
 
 View the website for more info [here](https://shinyarceus1.github.io/SOS-Code/)
 
